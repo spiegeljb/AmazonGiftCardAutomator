@@ -1,0 +1,12 @@
+#!/bin/bash
+low=$1
+high=$((low+21))
+low=$((low+1))
+
+while [[ $low -ne $high ]]
+do
+  node buy.js
+	echo $low "complete"
+  sleep 50
+	low=$((low+1))
+done

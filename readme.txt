@@ -1,6 +1,8 @@
 ** This script will buy 50 cent amazon gift cards 20x without requiring any input **
 ** The script is set to run every 50 seconds, shorter durations may prompt voided purchase **
 ** Does not work with amazon seller accounts as they require 2 factor authentication **
+** This script stores your amazon login information and credit card to automate login **
+** Amazon continues to change their CSS and security so minor tweaks are sometimes required **
 
 Set Environmental Variables
 MACOSX
